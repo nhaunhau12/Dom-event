@@ -73,7 +73,7 @@
             function phantram() {
                 var str = document.getElementById('number').value;
                 if (!isNaN(str)) {
-                    var x = eval(str * str / 100);
+                    var x = eval(str / 100);
                     document.getElementById('number').value = x;
                 } else {
                     alert('Đây không phải là số');
